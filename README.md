@@ -1,2 +1,2 @@
 # fred2
-fred
+fred second version
