@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    
+  }
+  
+  body{
+      background-color: black;;
+  }
+  
+  
+  
+  h1{
+    color: cornflowerblue;
+    font-size: 3.5rem;
+    text-align: center;
+    text-shadow:2px 2px black;
+  }
+  
+  h2{
+    padding-top:2rem;
+    color:cornflowerblue;
+  }
+/*   
+   .fam-member {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    width: 56%;
+    margin:0 auto;
+       }
+  
+  article {
+    margin: 1rem 0;
+  } */
+  
+  img{
+  
+    width: 400px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+   
+    }
+  /* MQ REDUCES IMG */
+  
+  
+  .boxAliideVass{
+    display:flex;
+    flex-wrap:wrap;
+   justify-content: space-around;
+  }
+  
+  
+  
+  
+  
+  
+  /* --------MID SCREENS----------------- */
+  
+  
+  @media (min-width: 400px) and (max-width:768px) 
+  {
+/*    
+      .fam-member{
+        width: 75%;
+        margin:0 auto;
+        font-size:1.2rem;
+      } */
+      img{
+        width: 300px;
+        }
+  
+  
+  }
+   
+  
+  /* ------------------SMALL SCREEN-------------------------- */
+  
+  
+  @media (max-width:399px) 
+  {
+  
+  
+   /* .fam-member{
+      width: 90%;
+      padding:0 auto;
+     font-size:0.9rem;
+    } */
+    img{
+    width: 250px;
+    }
+   
+  } 
+  

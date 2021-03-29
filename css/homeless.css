@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+  body {
+   font-size: 1.1rem;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+  
+  
+
+header h1{
+    color: cornflowerblue;
+  text-align: center;
+  font-size: 3.5vw;
+    text-shadow:2px 2px black;
+ 
+
+
+
+
+
+}
+
+/* -----ul NAV BAR------------------ */
+ul {
+  list-style-type: none;
+  margin: 2rem 0 0 0;
+  
+  width: 300px;
+  
+}
+
+
+
+li a {
+  display: block;
+  color: inherit;
+  /* padding: 8px 16px; */
+  text-decoration: none;
+  
+}
+
+
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: cornflowerblue;
+  color:yellow;
+}
+
+/* ------NAV BAR END---------------- */
+
+#page-menu{
+ 
+  width:300px;
+  margin:1rem auto;
+  padding:1rem;
+  
+ 
+}
+
+
+
+
+ul::before  {
+  content: "on this page:";
+  color:burlywood;
+  font-weight: 900;
+  font-size: 2rem;
+  font-style: oblique;
+
+
+  
+}
+
+.container-2parts{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.child1{
+  margin:0 auto;
+  flex: 0 0 300px;
+  padding-right:.5rem;
+  padding-bottom: .5rem;
+
+  
+}
+.child2{
+flex: 1 1 50%;
+margin-left:auto;
+margin-right:auto;
+padding-left: 2rem;
+}
+
+
+
+
+h1{
+      font-weight:700;
+      font-size: xx-large;
+   }
+   
+   h2{
+    text-align: center;
+      margin-bottom: .75rem;
+  
+  }
+ h3{
+   font-weight: 600;
+   margin: .5rem;
+ }
+
+ 
+
+  main {
+    width: 60%;
+    margin: 0 auto;
+
+  }
+  article {
+    margin: 1rem auto;
+  }
+ 
+
+/* --------MID SCREENS----------------- */
+
+
+@media (min-width: 400px) and (max-width:768px) 
+{
+  body{
+    font-size:1rem;
+    }
+    main {
+      width: 75%;
+      margin: 0 auto;
+      /* padding:0 auto; */
+    }
+}
+ 
+
+/* ------------------SMALL SCREEN-------------------------- */
+
+
+@media (max-width:399px) 
+{
+body{
+font-size:.9rem;
+}
+main {
+  width: 90%;
+  margin: 0 auto;
+  /* padding:0 auto; */
+}
+ 
+}    
+
+    

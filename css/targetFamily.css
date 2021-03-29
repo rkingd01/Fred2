@@ -1,0 +1,84 @@
+/* LINKED TO GEORGIJEVOUTED STALIN3 DEPORTMADIS */
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+  body {
+   
+font-family: Arial, Helvetica, sans-serif ;
+font-size:80%;
+    color: rgb(22, 22, 29);
+   
+  }
+section{
+  width: 70%;
+  margin: 1rem auto;
+  font-size: 1.1rem;
+}
+
+
+  h1{
+      margin-bottom: 1rem;
+      color: cornflowerblue;
+      text-align: center;
+      font-size:3rem;
+      
+
+  }
+      
+    #span1{
+      font-style:italic;
+    }
+
+p.bottom-gap {
+ padding-bottom: 3rem;
+}
+
+
+ .pics-in-row{
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   
+ }
+ img{
+   margin: 8px auto;
+
+ }
+
+ 
+/* --------MID SCREENS----------------- */
+
+
+@media (min-width: 400px) and (max-width:768px) 
+{
+  h1{
+    font-size:2rem;
+    color:cornflowerblue;
+  }
+  section{
+    width:85%;
+    font-size:1rem;
+    }
+
+}
+ 
+
+/* ------------------SMALL SCREEN-------------------------- */
+
+
+@media (max-width:399px) {
+h1{
+  font-size:1rem;
+  color:cornflowerblue;
+}
+
+  section{
+    width:90%;
+font-size:.9;
+}
+ 
+}    
+
+    

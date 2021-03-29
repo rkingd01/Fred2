@@ -1,0 +1,95 @@
+  * {
+      box-sizing: border-box;
+      margin:0;
+      padding:0;
+    }
+
+  body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+ 
+    font-size: 1.1rem;
+    background-image: url('/img/Aliide_Col111.jpg');
+    background-repeat: no-repeat;
+   background-position:center 5%;
+   background-attachment: fixed;
+   background-size: contain;
+
+  }
+
+  h1{
+    font-size: calc(28px + (52 - 28) * ((100vw - 320px) / (1600 - 320)));
+    color:cornflowerblue;
+    text-align: center;
+    text-shadow:2px 2px black;
+    margin: 2rem;
+  }
+
+
+
+
+
+main{
+width:50%;
+margin:2rem auto;
+background-color:rgba(255,255,255, .5);
+padding:1rem;
+}
+
+h3{
+  color:cornflowerblue;
+}
+
+a:link {
+  text-decoration: none;
+  background-color: yellowgreen;
+  color:black;
+}
+
+
+a:hover {
+  background-color:cornflowerblue;
+  color:rgb(245, 206, 10);
+  font-size: larger;
+}
+
+
+/* --------MID SCREEN----------------- */
+
+
+@media (min-width: 400px) and (max-width:768px) 
+{
+  body{
+    font-size: 1rem;
+    color:rgb(8, 36, 88);
+  
+ 
+    }
+    main{
+      width: 85%;
+      margin:0 2rem;
+    
+    }
+
+
+
+}
+ 
+
+/* ------------------SMALL SCREEN-------------------------- */
+
+
+@media (max-width:399px) 
+{
+  body{
+  font-size: .9rem;
+  }
+
+  main{
+    width: 94%;
+    margin:0 .5rem;
+
+    
+  }
+ 
+} 

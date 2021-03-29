@@ -1,0 +1,59 @@
+/* GLOBAL STYLES */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#000000;
+    margin: 0px 50px 50px;
+   
+
+}
+
+
+.item {
+    padding: 2rem;
+   
+   
+    font-size: 2em;
+    
+    font-weight: bold;
+   
+}
+
+.container {
+    display: flex;
+    flex-wrap: no-wrap;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width:auto;
+
+    
+   
+    
+}
+
+
+
+.item1 img{
+    width:25vw;
+    border:2px solid black;
+    align-self: center;
+}
+
+
+.item2{
+    
+    font: 2rem Arial, sans-serif;
+
+    
+}
+
+.item2 h1, h3{
+   
+    color:rgba(216, 177, 79, 0.7);
+    text-shadow : 2px 2px black;
+   
+}

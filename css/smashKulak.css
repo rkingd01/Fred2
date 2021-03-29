@@ -1,0 +1,101 @@
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+
+header 
+{
+  text-align: center;
+  font-weight: 600;
+  background-image: url('/img/small/protestKids.jpg');
+  background-size: 100%;
+  z-index:-1;
+  background-repeat: no-repeat;
+  background-position: 20% 70%;
+  height: 17rem;
+  color:cornflowerblue;
+  margin-bottom: 1rem;
+}
+
+h1{
+  color:cornflowerblue;
+}
+
+figcaption {
+    background-color: whitesmoke;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(87, 62, 42);
+    margin:auto;
+    font-size:1.1rem;
+    padding-bottom: 3rem;
+}
+
+/* STRUCTURE */
+.text-wrapper {
+  padding: 5px;
+  max-width: 960px;
+  width: 70%;
+  margin: 20px auto;
+}
+
+header {
+  padding: 0 15px;
+}
+
+
+
+
+
+img {
+    max-width: 350px;
+   
+}
+
+footer {
+  padding: 0 15px;
+}
+
+
+@media (min-width: 400px) and (max-width:768px)  {
+  .columns .column {
+    margin-bottom: 5px;
+    flex-basis: 40%;
+  }
+  .columns .column:nth-last-child(2) {
+    margin-right: 0;
+  }
+  .columns .column:last-child {
+    flex-basis: 100%;
+    margin: 0;
+  }
+  body{
+    font-size: 1rem;
+  
+  }
+  .text-wrapper{
+    width:80%;
+  }
+}
+
+
+@media screen and (max-width: 680px) {
+  .columns .column {
+    flex-basis: 100%;
+    margin: 0 0 5px 0;
+  }
+  .text-wrapper{
+    width:95%;
+  }
+  body{
+    font-size: .9rem;
+  }
+}
